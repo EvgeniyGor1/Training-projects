@@ -1,0 +1,25 @@
+﻿  BinaryTree.cpp
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(22,19): error C2079: "iss" использует не имеющую определения структуру class "std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(22,22): error C2440: инициализация: невозможно преобразовать "std::string" в "int"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(22,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,26): error C2677: бинарный ">>": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(901,9): message : может быть "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,32): message : "_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(888,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(882,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(859,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(853,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(848,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\istream(843,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'int'
+D:\SupProg\Visual Studio\VC\Tools\MSVC\14.35.32215\include\xstring(5317,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(23,22): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'int'
+C:\Users\Evgenyi\Desktop\C++\Projects\Training projects\Training projects\BinaryTree.cpp(102,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Main.cpp
+  MyList.cpp
+  Создание кода...
